@@ -45,7 +45,7 @@
           :alt="page.main.image3.alt"
         />
       </div>
-      <div>
+      <!-- <div>
         <p
           v-for="(testimonial, index) in page.testimonials"
           :key="index"
@@ -54,7 +54,7 @@
           {{ testimonial.quote }}<br />
           –{{ testimonial.author }}
         </p>
-      </div>
+      </div> -->
     </div>
     <Hero :image="page.full_image" />
     <!-- <div
