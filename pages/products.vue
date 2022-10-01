@@ -1,9 +1,7 @@
 <template>
   <div>
     <Hero :heading="page.title" :image="page.image" />
-    <div
-      class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md"
-    >
+    <div class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md">
       <h2>
         {{ page.heading }}
       </h2>
@@ -56,7 +54,7 @@
         </p>
       </div> -->
     </div>
-    <Hero :image="page.full_image" />
+    <!-- <Hero :image="page.full_image" /> -->
     <!-- <div
       class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-2xl lg:prose-xl md:prose-lg"
     >
