@@ -11,7 +11,7 @@
                     to="/"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
-                    Home
+                    Inicio
                   </nuxt-link>
                 </li>
                 <li>
@@ -19,7 +19,7 @@
                     to="/about"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
-                    About
+                    Beneficios
                   </nuxt-link>
                 </li>
                 <li>
@@ -27,37 +27,37 @@
                     to="/products"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
-                    Products
+                    Tipos
                   </nuxt-link>
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     href="/admin"
                     target="_blank"
                     nofollow
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
-                    Admin
+                    Administración
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
               <ul class="mt-4 space-y-4">
-                <li>
+                <!-- <li>
                   <nuxt-link
                     to="/blog"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
                     Latest Stories
                   </nuxt-link>
-                </li>
+                </li> -->
                 <li>
                   <nuxt-link
                     to="/contact"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
-                    Contact
+                    Contacto
                   </nuxt-link>
                 </li>
               </ul>
@@ -65,10 +65,8 @@
           </div>
         </div>
       </div>
-      <div
-        class="pt-8 mt-8 border-t border-gray-700 md:flex md:items-center md:justify-between"
-      >
-        <div class="flex space-x-6 md:order-2">
+      <div class="pt-8 mt-8 border-t border-gray-700 md:flex md:items-center md:justify-between" >
+        <!-- <div class="flex space-x-6 md:order-2">
           <a
             href="https://twitter.com/lukeocodes"
             target="_blank"
@@ -95,9 +93,8 @@
               />
             </svg>
           </a>
-        </div>
-        <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
-          &copy; 2020 Whoever | Sponsored by
+        </div> -->
+        <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1"> &copy; 2020 Whoever | Sponsored by
           <a href="https://netlify.com" target="_blank">Netlify</a>
         </p>
       </div>
