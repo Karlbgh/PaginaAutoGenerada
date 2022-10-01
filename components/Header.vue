@@ -45,25 +45,25 @@
               to="/about"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
-              About
+              Beneficios
             </nuxt-link>
             <nuxt-link
               to="/products"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
-              Products
+              Tipos
             </nuxt-link>
-            <nuxt-link
+            <!-- <nuxt-link
               to="/blog"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Blog
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link
               to="/contact"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
-              Contact
+              Contacto
             </nuxt-link>
           </nav>
           <div class="flex items-center space-x-8">
@@ -128,31 +128,31 @@
                   class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
                   @click.native="toggleMenu"
                 >
-                  About
+                  Beneficios
                 </nuxt-link>
                 <nuxt-link
                   to="/products"
                   class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
                   @click.native="toggleMenu"
                 >
-                  Products
+                  Tipos
                 </nuxt-link>
-                <nuxt-link
+                <!-- <nuxt-link
                   to="/blog"
                   class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
                   @click.native="toggleMenu"
                 >
                   Blog
-                </nuxt-link>
+                </nuxt-link> -->
                 <nuxt-link
                   to="/contact"
                   class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
                   @click.native="toggleMenu"
                 >
-                  Contact
+                  Contacto
                 </nuxt-link>
               </div>
-              <div class="space-y-6">
+              <!-- <div class="space-y-6">
                 <p
                   class="text-base font-medium leading-6 text-center text-gray-500"
                 >
@@ -169,7 +169,7 @@
                     />
                   </a>
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
