@@ -53,7 +53,7 @@
             <nuxt-link :to="`/blog/${post.slug}`">Read more</nuxt-link>
           </p>
         </div>
-      </div> -->
+      </div>
       <p class="text-center">
         <nuxt-link
           to="/blog"
@@ -61,7 +61,7 @@
         >
           Read more
         </nuxt-link>
-      </p>
+      </p> -->
     </div>
   </div>
 </template>
@@ -74,7 +74,7 @@ export default {
 
     return {
       page,
-      posts,
+      // posts,
     }
   },
 }
