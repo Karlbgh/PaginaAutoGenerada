@@ -66,7 +66,7 @@
               Contacto
             </nuxt-link>
           </nav>
-          <div class="flex items-center space-x-8">
+          <!-- <div class="flex items-center space-x-8">
             <a
               href="https://github.com/lukeocodes/nuxt-starter-netlify-cms"
               target="_blank"
@@ -77,7 +77,7 @@
                 alt="Find us on Github"
               />
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
 
