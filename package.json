@@ -1,7 +1,7 @@
 {
   "name": "nuxt-starter-netlify-cms",
   "version": "1.0.1",
-  "description": "Example Nuxt, and Netlify CMS project",
+  "description": "Secretos de un buen Café",
   "author": "Luke Oliff <luke@lukeoliff.com> (https://twitter.com/lukeocodes)",
   "private": true,
   "scripts": {
@@ -32,7 +32,7 @@
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.1.2",
     "release-it": "^14.2.1",
     "remark-cli": "^9.0.0",
