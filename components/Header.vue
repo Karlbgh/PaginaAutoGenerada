@@ -91,7 +91,7 @@
               <div class="flex items-center justify-between">
                 <nuxt-link to="/" @click.native="toggleMenu">
                   <img
-                    class="h-5"
+                    class="h-2"
                     src="/assets/images/logo.svg"
                     alt="Workflow"
                   />
