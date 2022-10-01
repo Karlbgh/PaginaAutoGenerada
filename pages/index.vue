@@ -12,7 +12,7 @@
       <p>
         {{ page.mainpitch.description }}
       </p>
-      <h2>
+      <h2 style="align-self: center;">
         {{ page.title }}
       </h2>
       <p>
