@@ -5,9 +5,7 @@
       :subheading="page.subheading"
       :image="page.image"
     />
-    <div
-      class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md"
-    >
+    <div class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md" >
       <h3>
         {{ page.mainpitch.title }}
       </h3>
@@ -38,7 +36,7 @@
           See all products
         </nuxt-link>
       </p>
-      <h2>Latest stories</h2>
+      <!-- <h2>Latest stories</h2>
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div
           v-for="(post, index) in posts"
@@ -55,7 +53,7 @@
             <nuxt-link :to="`/blog/${post.slug}`">Read more</nuxt-link>
           </p>
         </div>
-      </div>
+      </div> -->
       <p class="text-center">
         <nuxt-link
           to="/blog"
@@ -72,7 +70,7 @@
 export default {
   async asyncData({ $content }) {
     const page = await $content('index').fetch()
-    const posts = await $content('blog').fetch()
+    // const posts = await $content('blog').fetch()
 
     return {
       page,
