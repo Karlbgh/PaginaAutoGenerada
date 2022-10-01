@@ -11,7 +11,7 @@
       >
         <div>
           <nuxt-link to="/" class="flex">
-            <img class="h-2" src="/img/logo.svg" alt="Workflow" />
+            <img class="h-10" src="/img/logo.svg" alt="Workflow" />
           </nuxt-link>
         </div>
         <div class="-my-2 -mr-2 md:hidden">
@@ -91,7 +91,7 @@
               <div class="flex items-center justify-between">
                 <nuxt-link to="/" @click.native="toggleMenu">
                   <img
-                    class="h-2"
+                    class="h-10"
                     src="/assets/images/logo.svg"
                     alt="Workflow"
                   />
